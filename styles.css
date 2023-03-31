@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;800&display=swap');
+
+*{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
 /* Barra de navegacion*/
 
 .navbar {
@@ -13,5 +20,55 @@
 @media screen and (max-width: 767px){
     .navbar-brand {
         display: none;
+    }
+}
+
+/* Seccion Hero */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.hero {
+    background-color: #F5F6F7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+}
+.hero h2 {
+    font-size: 1.4rem;
+}
+
+.hero-nombre {
+    color: #1b0088  
+}
+
+.imagen-desarrollador {
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    display: flex;
+    align-self: center;
+    border-radius: 100%;
+}
+
+.hero-inferior-imagen {
+    width: 50rem;
+}
+
+@media screen and (max-width: 700px){
+    .hero-inferio-image {
+        width: 100%;
     }
 }
