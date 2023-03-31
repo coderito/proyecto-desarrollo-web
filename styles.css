@@ -59,8 +59,8 @@ h1 {
     height: 200px;
     margin: 1rem;
     display: flex;
-    align-self: center;
     border-radius: 100%;
+    align-self: center;
 }
 
 .hero-inferior-imagen {
@@ -71,4 +71,56 @@ h1 {
     .hero-inferio-image {
         width: 100%;
     }
+}
+
+
+/* Sobre mi */
+
+.seccion__oscura {
+    background-color: #1b2b42;
+    padding: 2rem;
+    color: white;
+    height: 400px;
+}
+
+.seccion__oscura--titulo{
+    font-size: 2.3rem;
+    padding-bottom: 1.2rem;
+}
+
+.seccion__oscura--parrafo{
+    font-size: 1rem;
+}
+
+.seccion__oscura-nombre{
+    font-weight: 800;
+}
+
+@media screen and (max-width: 700px){
+    section.seccion__oscura div p, section.seccion__oscura div h3 {
+        text-align: justify;
+    }
+}
+
+/* Experiencia */
+.seccion__clara {
+    background-color: white;
+}
+
+.card {
+    transition: all 0.8 ease-in;
+}
+
+.card:hover{
+    background-color: #d7d7d7;
+}
+
+.card-img-top {
+    height: 20rem;
+}
+
+.card-title {
+    background-color: #1b2b42;
+    border-radius: 0.2rem;
+    color: white;
 }
