@@ -204,3 +204,22 @@ h1 {
     font-size: 1.2rem;
   }
 }
+
+/* Articulos */
+
+.articulos {
+  min-height: 400px;
+  padding: 30px;
+  
+}
+
+.articulos h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 800;
+}
+
+.articulos-card{
+  width: 80%;
+  max-width: 800px;
+}
